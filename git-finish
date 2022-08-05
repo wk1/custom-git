@@ -1,4 +1,9 @@
 currentBranch=$(git branch --show-current)
 
-git checkout main
-git branch -d $currentBranch
+if [ $currentBranch  = 'main' ] then
+    echo "Current branch is main. We don't want to delete that 😉"
+else
+    git checkout main
+    git branch -d $currentBranch
+    git pull
+fi

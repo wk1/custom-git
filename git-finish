@@ -1,6 +1,7 @@
 currentBranch=$(git branch --show-current)
 
-if [ $currentBranch  = 'main' ] then
+if [ $currentBranch == 'main' ] 
+then
     echo "Current branch is main. We don't want to delete that 😉"
 else
     git checkout main

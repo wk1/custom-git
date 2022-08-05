@@ -1,6 +1,6 @@
 branch=$1 # first argument is new branch name
 
-if [ ! -z "$1"] # check if argument was set
+if [ ! -z "$1" ] # check if argument was set
 then 
   git checkout -b $branch
   git push -u origin $branch

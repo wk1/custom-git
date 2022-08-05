@@ -17,3 +17,7 @@ Afterwards you can use theses commands just like normal git commands like
   `git publish`
 
 ...
+
+##Adding custom commands
+
+Just create a new file `git-commandname` add your desired code to the file and make it executable with `chmod +x git-commandname`

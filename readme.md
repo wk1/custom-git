@@ -22,4 +22,4 @@ Afterwards you can use theses commands just like normal git commands like
 
 ## Adding custom commands
 
-Just create a new file `git-commandname` add your desired code to the file and make it executable with `chmod +x git-commandname`
+Just create a new file `git-commandname` add your desired code to the file and make it executable with `chmod +x git-commandname`. Since you already added the repo folder to you path you should be able to use it right away. (For existing sessions you might need to source your zshrc again by calling `zsh` or `source ~/.zshrc`)

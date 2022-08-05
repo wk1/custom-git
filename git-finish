@@ -1,0 +1,4 @@
+currentBranch=$(git branch --show-current)
+
+git checkout main
+git branch -d $currentBranch
